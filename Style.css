@@ -66,7 +66,6 @@ body {
 
 .header p {
     color: var(--Dark-Grayish-Magenta);
-    
 }
 
 /*END HEADER*/
@@ -130,6 +129,14 @@ body {
 
 }
 
+.attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
+
 /*END CARDS ID*/
 
 
@@ -141,6 +148,10 @@ body {
         background: url(images/bg-pattern-top-desktop.svg), url(images/bg-pattern-bottom-desktop.svg);
         background-repeat: no-repeat;
         background-position: top left, bottom right;
+    }
+
+    .header p {
+        font-size: 14px;
     }
 
     .container-general {
@@ -205,27 +216,19 @@ body {
         justify-content: space-between;
         grid-column: 2/10;
         grid-row: 2/4;
-        height: 300px;
     }
 
     .card-id {
         width: 350px;
         height: 220px;
-        
-    }
-
-    .card-id-1 {
-        align-items: flex-start;
+        margin: .2em;
+        box-sizing: border-box;
     }
 
     .card-id-2 {
-        align-items: center;
+        margin-top: 2em;
     }
 
-    .card-id-1 {
-        align-items: flex-end;
+    .card-id-3 {
+        margin-top: 4em;
     }
-}
-
-
-/*END MEDIA QUERY*/
